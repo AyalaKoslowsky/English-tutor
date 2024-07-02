@@ -1,6 +1,6 @@
 # English Tutor Website
 ## Description
-A platform designed to help children learn English in a fun and interactive way. The website is divided into different levels of learning, including Beginner, Intermediate, and Advanced. Each level offers unique activities and quizzes to enhance the learning experience.
+A platform designed to help children learn English in a fun and interactive way. Includes frontend, backend, and a database (SQLite). The website is divided into different levels of learning, including Beginner, Intermediate, and Advanced.
 
 Beginner Level: Focuses on learning the alphabet and basic words through interactive games.
 Intermediate Level: Enhances vocabulary and introduces new words and concepts.
