@@ -1,0 +1,25 @@
+.levels {
+    text-align: center;
+    padding: 10px;
+}
+
+.level-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.level-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 5px solid #c282d8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.level-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

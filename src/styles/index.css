@@ -1,0 +1,57 @@
+body {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('/public/background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+h1, h2 {
+  color: purple;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: transparent;
+  padding: 10px;
+  color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: darkgreen;
+  padding: 10px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #ff6347;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
